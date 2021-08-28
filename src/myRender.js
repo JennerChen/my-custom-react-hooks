@@ -89,7 +89,6 @@ const hostConfig = {
         parentInstance.removeChild(child);
     },
     clearContainer(){
-
     }
 };
 

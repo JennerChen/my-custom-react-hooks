@@ -5,7 +5,7 @@ export default function (){
 
     return <div>
         <button onClick={ () => setCount(count+1) }>+</button>
-        count: {count} <span>{count}</span>
+        count: {count}
         <button onClick={ () => setCount(count-1) }>-</button>
     </div>
 }
