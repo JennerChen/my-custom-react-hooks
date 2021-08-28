@@ -82,8 +82,6 @@ const hostConfig = {
         if(oldText !== newText) {
             textInstance.replaceData(0, textInstance.length, newText);
         }
-
-        // textInstance.text = newText;
     },
     removeChild(parentInstance, child) {
         parentInstance.removeChild(child);
